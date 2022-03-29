@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&family=Lobster&family=Mochiy+Pop+P+One&family=Pacifico&family=Zen+Kurenaido&display=swap');
+*{
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+}
+body{
+    background-color: rgba(250, 170, 104, 0.808);
+}
+table{
+    border: 3px solid rgb(250, 108, 13);
+    margin: 20px;
+    background-color: rgb(252, 147, 77);
+}
+td{
+    border: 3px solid rgb(250, 108, 13);
+    padding: 5px;
+    font-size: large;
+    border-radius: 5px;
+}
+img{
+    margin: 10px;
+    height: 300px;
+}
+.navbar{
+    background-color: rgb(255, 102, 0);
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.img{
+    height: 120px;
+}
+a{
+    justify-content: space-around;
+    align-items: stretch;
+    text-decoration: none;
+}
+h1{
+    color: rgb(0, 0, 0);
+}
+h2{
+    color: rgb(243, 2, 2);
+    font-size: 40px;
+    margin: 10px;
+}
+.img1{
+    height: 200px;
+}
+.img2{
+    height: 225px;
+}
+p{
+    font-size: large;
+}
+input{
+    border: 2px solid rgb(255, 96, 22);
+    border-radius: 7px;
+}
+.button{
+    background-color: rgb(255, 102, 0);
+    border-radius: 20px;
+    width: 200px;
+    margin: auto;
+    cursor: pointer;
+    font-size: x-large;
+}
+tr:hover{
+    background-color:rgb(255, 135, 55);
+}
